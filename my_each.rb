@@ -1,5 +1,12 @@
 def my_each # put argument(s) here
   # code here
-  while
+  array = []
+  if block_given?
+    i = 0
+    while i < array.length
+      yeild(array[i])
+      i
+    end
+    array
   end
 end
