@@ -11,6 +11,7 @@ def my_each # put argument(s) here
   end
 end
 
+array = []
 my_each() do |word|
   word
 end
