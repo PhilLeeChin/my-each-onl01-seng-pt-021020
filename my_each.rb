@@ -12,6 +12,6 @@ def my_each # put argument(s) here
 end
 
 array = []
-my_each() do |word|
+my_each(array) do |word|
   word
 end
