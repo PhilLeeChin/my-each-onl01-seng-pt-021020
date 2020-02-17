@@ -12,5 +12,5 @@ def my_each # put argument(s) here
 end
 
 my_each() do |word|
-  puts word
+  word
 end
