@@ -11,7 +11,6 @@ def my_each # put argument(s) here
   end
 end
 
-array = []
 my_each(array) do |word|
   word
 end
