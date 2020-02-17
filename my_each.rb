@@ -10,3 +10,7 @@ def my_each(array)# put argument(s) here
     array
   end
 end
+
+my_each() do |string|
+  String
+end
